@@ -1,0 +1,460 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="g-chat-area">
+
+        <div class="g-chat-header">
+          <div class="new-chat-open">
+            <i class="bi bi-chat-right-text-fill"></i> <strong>New Chat</strong>
+            <div class="search-container">
+              <i class="bi bi-search search-icon"></i>
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
+
+          <div class="g-open-chat-header">
+            <div class="g-open-chat-h-main">
+              <div class="g-chat-user-profile">
+                <img src="https://picsum.photos/50/50" alt="">
+                <div class="g-chat-u-name">
+                  <div class="g-chat-u-meta">
+                    <strong class="mb-0">Alkarim Hasan</strong>
+                    <small>015565598345</small>
+                  </div>
+                  <div class="g-chat-notes">
+                    <small>2 notes</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="g-chat-user-property">
+                <div class="search-container">
+                  <i class="bi bi-search search-icon"></i>
+                  <input type="text" placeholder="Search...">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="g-chat-body">
+
+          <!--      Left List Item-->
+          <div class="g-chat-left">
+            <div id="open-chat">
+              <ul>
+
+                <li class="active" data-target="content-1">
+                  <div class="g-left-u-profile">
+                    <div class="g-chat-left-u-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                    <div class="g-chat-left-u-meta">
+                      <strong class="mb-0">Alkarim Hasan</strong>
+                      <small>015565598345</small>
+                    </div>
+                  </div>
+                </li>
+
+                <li data-target="content-2">
+                  <div class="g-left-u-profile">
+                    <div class="g-chat-left-u-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                    <div class="g-chat-left-u-meta">
+                      <strong class="mb-0">Saazia Banu</strong>
+                      <small>015565598345</small>
+                    </div>
+                  </div>
+                </li>
+
+                <li data-target="content-3">
+                  <div class="g-left-u-profile">
+                    <div class="g-chat-left-u-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                    <div class="g-chat-left-u-meta">
+                      <strong class="mb-0">Hasan Masud</strong>
+                      <small>015565598345</small>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+            <div id="close-chat">
+              <ul>
+
+                <li class="active" data-target="content-1">
+                  <div class="g-left-u-profile">
+                    <div class="g-chat-left-u-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                    <div class="g-chat-left-u-meta">
+                      <strong class="mb-0">Alkarim Hasan</strong>
+                      <small>015565598345</small>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+
+
+            <div class="g-button-group">
+              <button id="open-btn" class="btn btn-sm btn-block">Open</button>
+              <button id="close-btn" class="btn btn-sm btn-block">Close</button>
+            </div>
+          </div>
+
+          <!--Right Chat Area-->
+          <div class="g-chat">
+
+            <div class="g-chat-history" id="g-chat-history">
+
+              <div id="content-1" class="content active">
+
+                <div class="g-chat-main">
+                  <div class="text-center">
+                    <small class="text-white">
+                      Feb 22, 2023
+                    </small>
+                  </div>
+                  <div class="chat-msg-content">
+                    <div class="chat-msg">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      <time datetime="6:00">6:00 pm</time>
+                    </div>
+                    <div class="chat-msg-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                  </div>
+                  <div class="chat-msg-content msg-other">
+                    <div class="chat-msg">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem
+                      commodi
+                      consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                      harum
+                      hic,
+                      <time datetime="6:00">6:00 pm</time>
+                    </div>
+                    <div class="chat-msg-image">
+                      <img src="https://picsum.photos/50/50" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div id="content-2" class="content">
+                <div class="text-center">
+                  <small class="text-white">
+                    Feb 22, 2023
+                  </small>
+                </div>
+                <div class="chat-msg-content">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content msg-other">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem commodi
+                    consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                    harum
+                    hic,
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content msg-other">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem commodi
+                    consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                    harum
+                    hic,
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content msg-other">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem commodi
+                    consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                    harum
+                    hic,
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content msg-other">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem commodi
+                    consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                    harum
+                    hic,
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+              </div>
+              <div id="content-3" class="content">
+                <div class="text-center">
+                  <small class="text-white">
+                    Feb 22, 2023
+                  </small>
+                </div>
+                <div class="chat-msg-content msg-other">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi assumenda autem commodi
+                    consequatur corporis cumque deleniti deserunt dolore doloremque doloribus ducimus facere fugiat
+                    harum
+                    hic,
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+                <div class="chat-msg-content">
+                  <div class="chat-msg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <time datetime="6:00">6:00 pm</time>
+                  </div>
+                  <div class="chat-msg-image">
+                    <img src="https://picsum.photos/50/50" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="g-chat-message">
+              <form action="">
+                <label for="s-msg" class="w-100">
+                  <textarea class="form-control" name="" cols="30" rows="2" placeholder="Write...."
+                            id="s-msg"></textarea>
+                </label>
+
+                <div class="g-chat-message-bottom">
+                  <div class="g-chat-attachment">
+                    <select id="template" name="template" class="form-control form-control-sm">
+                      <option selected>Choose Template</option>
+                      <option value="volvo">I will be back</option>
+                      <option value="saab">Good Morning!</option>
+                      <option value="fiat">When you will be free.</option>
+                      <option value="audi">Looking for a schedule meeting.</option>
+                    </select>
+                  </div>
+
+                  <button class="btn btn-secondary btn-sm">SEND</button>
+                </div>
+              </form>
+
+            </div>
+
+
+          </div>
+
+
+          <div class="g-chat-right">
+            <div class="table-responsive">
+              <table class="table table-bordered table-sm table-striped">
+                <thead>
+                <tr class="text-center">
+                  <th colspan="3">Contact Details</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><small>First Name</small></td>
+                  <td><small>Momin Riyadh</small></td>
+                  <td><small class="bi bi-pencil-square"></small></td>
+                </tr>
+                <tr>
+                  <td><small>Last Name</small></td>
+                  <td><small>Support</small></td>
+                  <td><small class="bi bi-pencil-square"></small></td>
+                </tr>
+                <tr>
+                  <td><small>Email</small></td>
+                  <td><small>email@email.com</small></td>
+                  <td><small class="bi bi-pencil-square"></small></td>
+                </tr>
+                <tr>
+                  <td><small>Company</small></td>
+                  <td><small>GSL</small></td>
+                  <td><small class="bi bi-pencil-square"></small></td>
+                </tr>
+                <tr>
+                  <td><small>Country</small></td>
+                  <td><small>United States</small></td>
+                  <td><small class="bi bi-pencil-square"></small></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script async src="js/main.js"></script>
+
+<script>
+  // Get all the td elements
+  const tds = document.querySelectorAll('td');
+
+  // Loop through each td
+  tds.forEach((td) => {
+    // Check if it's the last or third td
+    if (td === td.parentNode.lastElementChild || td === td.parentNode.children[2]) {
+      //Cursor Pointer Style
+      td.style.cursor = 'pointer'
+
+      // Add a click event listener
+      td.addEventListener('click', () => {
+        // Get the second td element
+        const secondTd = td.parentNode.children[1];
+
+        // Make it contenteditable
+        secondTd.contentEditable = true;
+        secondTd.focus();
+      });
+    }
+  });
+</script>
+
+<script>
+  const searchIcons = document.querySelectorAll('.search-icon');
+  // const searchContainer = document.querySelector('.search-container');
+
+  searchIcons.forEach(function (searchIcon) {
+    searchIcon.addEventListener('click', function () {
+      const searchContainer = searchIcon.parentElement;
+      searchContainer.classList.toggle('active');
+    });
+  });
+
+
+</script>
+
+<script>
+  // Get the button and div elements
+  const openBtn = document.getElementById("open-btn");
+  const closeBtn = document.getElementById("close-btn");
+  const openChat = document.getElementById("open-chat");
+  const closeChat = document.getElementById("close-chat");
+
+  // Add click event listeners to the buttons
+  openBtn.addEventListener("click", () => {
+    openChat.style.display = "block";
+    closeChat.style.display = "none";
+    openBtn.style.backgroundColor = "#708d3f";
+    closeBtn.style.backgroundColor = "initial";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    openChat.style.display = "none";
+    closeChat.style.display = "block";
+    closeBtn.style.backgroundColor = "#708d3f";
+    openBtn.style.backgroundColor = "initial";
+  });
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
