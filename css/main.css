@@ -247,7 +247,7 @@ h3 {
   ============================*/
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(112, 141, 63, 0.5), rgba(0, 0, 0, 0.099);
+  scrollbar-color: rgba(104, 106, 102, 0.5), rgba(0, 0, 0, 0.099);
 }
 
 ::-webkit-scrollbar {
@@ -262,7 +262,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(112, 141, 63, 0.5);
+  background: rgba(104, 106, 102, 0.5);
   border-radius: 30px;
 }
 
@@ -340,7 +340,7 @@ h3 {
 }
 
 .g-chat-notes small {
-  background-color: #718e3f;
+  background-color: #329e8c;
   color: #ffffff;
   padding: 0.2rem;
   border-radius: 0.5rem;
@@ -350,7 +350,7 @@ h3 {
   transition: all 0.4s ease-in-out;
 }
 .g-chat-notes small:hover {
-  background-color: darkolivegreen;
+  background-color: #26776a;
 }
 
 .g-chat-user-property {
@@ -391,12 +391,12 @@ h3 {
 
 .search-container input[type=text]:focus {
   outline: none;
-  border-bottom: 2px solid #708d3f;
+  border-bottom: 2px solid #329e8c;
 }
 
 .search-container.active .search-icon {
   left: 10px;
-  color: #708d3f;
+  color: #329e8c;
 }
 
 .search-container.active input[type=text] {
@@ -452,20 +452,20 @@ h3 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #888888;
 }
 .g-button-group button {
-  color: #ffffff;
   width: 100%;
+  background-color: #646879;
+  color: #ffffff;
 }
 .g-button-group button#open-btn {
-  background-color: #718e3f;
+  background-color: #329e8c;
 }
 
 .g-chat {
   flex: 2;
   width: 100%;
-  background-color: darkolivegreen;
+  background-color: #ffffff;
   padding: 1rem;
 }
 
@@ -532,14 +532,15 @@ h3 {
   justify-content: flex-end;
 }
 .chat-msg-content .chat-msg {
-  background-color: #fbfbfb;
+  background-color: #dcdee7;
   border-radius: 0.3rem;
   padding: 0.5rem;
   position: relative;
   max-width: 86%;
+  min-width: 60%;
 }
 .chat-msg-content .chat-msg time {
-  font-size: 12px;
+  font-size: 10px;
   display: block;
   float: right;
   width: 100%;
@@ -558,16 +559,16 @@ h3 {
   margin-bottom: 1rem;
   flex-direction: row-reverse;
   clear: both;
-  width: 100%;
 }
 .chat-msg-content.msg-other .chat-msg {
-  background-color: #718e3f;
-  color: #ffffff;
+  background-color: #e8e8e8;
+  color: #434652;
   clear: both;
   max-width: 86%;
+  min-width: 60%;
 }
 .chat-msg-content.msg-other .chat-msg time {
-  font-size: 12px;
+  font-size: 10px;
   display: block;
   width: 100%;
   float: right;
@@ -575,13 +576,14 @@ h3 {
 }
 
 .g-chat-message {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   padding: 0.5rem;
   border-radius: 5px;
   top: 0.5rem;
   position: relative;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
 
 .g-chat-message-bottom {
@@ -598,7 +600,7 @@ h3 {
 .g-chat-attachment i {
   font-size: 1.2rem;
   cursor: pointer;
-  color: #718e3f;
+  color: #329e8c;
   font-weight: bold;
   display: inline-block;
   padding: 0.2rem;
