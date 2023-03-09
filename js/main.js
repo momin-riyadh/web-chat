@@ -12,8 +12,18 @@ leftItems.forEach(item => {
 
     // Show corresponding content item and hide others
     contentItems.forEach(content => {
+      const contents = document.querySelectorAll('.content');
+      const chatLists = document.querySelectorAll('#open-chat ul li');
       if (content.id === item.dataset.target) {
         content.classList.add('active');
+
+        chatLists.forEach((chatList, index) => {
+          chatList.addEventListener('click', function () {
+            contents[index].scrollIntoView({behavior: "smooth", block: "end"});
+          });
+        });
+
+
       } else {
         content.classList.remove('active');
       }
@@ -21,12 +31,15 @@ leftItems.forEach(item => {
   });
 });
 
-
-;(function () {
-  document.addEventListener('DOMContentLoaded', () => {
-    const chatHistory = document.querySelector('.g-chat-history');
-    if (chatHistory) {
-      chatHistory.scrollTop = chatHistory.scrollHeight;
-    }
-  })
-})();
+//
+// ;(function () {
+//   document.addEventListener('DOMContentLoaded', () => {
+//     const contents = document.querySelectorAll('.content');
+//     if (contents) {
+//       contents.forEach((content)=>{
+//         content.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+//       })
+//
+//     }
+//   })
+// })();
